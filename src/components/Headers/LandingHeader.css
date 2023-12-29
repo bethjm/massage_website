@@ -2,14 +2,13 @@
   width: 100vw;
   height: 37.5rem;
   position: relative;
-  overflow: none;
-  /* display: block; */
+  overflow: hidden;
 }
 
 .landing_header .clouds {
   border-radius: 0rem 0rem 14.75rem 0rem;
   z-index: -1;
-  height: 37.5rem;
+  height: 105%;
   width: 65%;
 }
 
