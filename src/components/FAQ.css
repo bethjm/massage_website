@@ -10,6 +10,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  padding-top: 4rem;
 }
 
 .faq .faqcolumn h1 {
