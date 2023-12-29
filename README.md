@@ -3,7 +3,7 @@
 This repository contains the code for Stephanie's website, a platform designed to showcase her massage therapy services and provide valuable information to potential clients. The website is built using React.js, React Router, and emphasizes the use of reusable components for efficient and scalable development.
 
 Here is the deployed site:</br>
-https://bodyworkbystephanie.netlify.app/</br>
+https://bodyworkbystephanie.netlify.app/</br></br>
 The Figma design can be found here:</br>https://www.figma.com/file/j0XqBq3rEFB071dSOF7jDW/Bodywork-by-Stephanie?node-id=0%3A1&mode=dev
 
 ## Technical Aspects
