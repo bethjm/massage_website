@@ -1,0 +1,44 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+:root {
+  --blue: #6fbfbe;
+  --dark-blue: #008c8c;
+  --pink: #dabcb4;
+  --tan: #f3d5bd;
+  --grey: #a3bcc0;
+  --overlay: rgba(163, 188, 192, 0.5);
+  --overlay-blue: rgba(111, 191, 190, 0.6);
+  --overlay-dark-blue: rgba(0, 140, 140, 0.6);
+  --overlay-tan: rgba(243, 213, 189, 0.6);
+  --text: #0d0d0d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  font-family: Inter;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  overflow: scroll;
+}
+
+code {
+  font-family: source-code-pro, Inter, Monaco, Consolas, monospace;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

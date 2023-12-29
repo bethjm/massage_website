@@ -1,0 +1,76 @@
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+@import url("https://fonts.cdnfonts.com/css/playfair-display");
+@import url("https://fonts.cdnfonts.com/css/lato");
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+.approach {
+  background-color: #fff9f0;
+  display: flex;
+  padding: 2.5rem 0rem 2.5rem 10rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.75rem;
+  align-self: stretch;
+}
+
+.approach .approach_container {
+  display: flex;
+  height: 22.5rem;
+  padding: 1.5rem 0.5rem 1.25rem 0.5rem;
+  align-items: center;
+  /* flex-shrink: 0; */
+  /* align-self: stretch; */
+  border-radius: 11.25rem 0rem 0rem 11.25rem;
+  border-top: 4px solid #4bffdf;
+  border-bottom: 20px solid #4bffdf;
+  border-left: 20px solid #4bffdf;
+  background: #fbfaf8;
+  /* Shadow (LG) */
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.approach .approach_image img {
+  width: 17.5rem;
+  height: 16.75625rem;
+  flex-shrink: 0;
+  border-radius: 17.5rem;
+  margin-left: 3rem;
+}
+
+.approach .approach_text {
+  display: flex;
+  padding: 2.5rem 5rem 2.5rem 2.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+@media screen and (max-width: 1200px) {
+  .approach {
+    height: 100%;
+  }
+
+  .approach .approach_container {
+    height: 100%;
+    width: 80vw;
+    flex-direction: column;
+  }
+
+  .approach .approach_text {
+    /* overflow: hidden; */
+    height: 100%;
+    width: 70vw;
+    padding: 1rem 1rem 2.5rem 2.5rem;
+    text-align: center;
+  }
+
+  .approach .approach_text h1 {
+    align-self: center;
+  }
+
+  .approach .approach_image img {
+    align-self: center;
+  }
+}

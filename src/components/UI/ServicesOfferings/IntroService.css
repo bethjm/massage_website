@@ -1,0 +1,41 @@
+.intro_services {
+  display: flex;
+  justify-content: center;
+  background-color: #fff9f0;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.intro_services .intro_services_container h1 {
+  font-size: 4rem;
+  padding-bottom: 2%;
+  width: 80%;
+  margin: auto;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.intro_services .intro_services_container {
+  display: flex;
+  padding: 3.1875rem 7.9375rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  background: var(--Shades-White, #fff);
+  /* Shadow (LG) */
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  width: 65%;
+}
+
+.intro_services .intro_services_container p {
+  padding-bottom: 5%;
+}
+
+@media screen and (max-width: 1300px) {
+  .intro_services .intro_services_container {
+    padding: 2rem 2rem;
+    width: 85%;
+    gap: 1rem;
+  }
+}

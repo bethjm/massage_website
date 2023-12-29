@@ -1,0 +1,53 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+.massage_header_page {
+  background-color: #fff9f0b5;
+  color: #fff;
+  position: relative;
+  display: flex;
+  height: 60vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  align-self: stretch;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.massage_header_page:before {
+  content: "";
+  background: url(../images/header_massage.jpeg) no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.massage_header_page .massage_header_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.massage_header_page .massage_header_container h1 {
+  color: #34393a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5rem; /* 111.111% */
+  letter-spacing: -0.18rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .massage_header_page {
+    width: 100%;
+  }
+}

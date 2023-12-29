@@ -1,0 +1,80 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+.are_you {
+  background-color: #fff9f0;
+  display: flex;
+  /* height: 80%; */
+  padding-bottom: 5%;
+  position: relative;
+  justify-content: center;
+}
+.are_you .are_you_container {
+  display: flex;
+  padding: 2.5rem 7.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+  border-radius: 2.5rem;
+  background: var(--Shades-White, #fff);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.are_you .title_container {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.5rem; /* 121.212% */
+  letter-spacing: -0.04125rem;
+}
+
+.are_you .list_container {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.1875rem; /* 118.75% */
+  display: flex;
+  flex-direction: row;
+}
+
+.are_you .endcap_container {
+  color: #000;
+  text-align: center;
+  /* Heading / H3 / Semi Bold */
+  font-family: Inter;
+  font-size: 2.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.5rem; /* 121.212% */
+  letter-spacing: -0.04125rem;
+}
+
+.are_you #mobile_now_show {
+  display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  .are_you {
+    padding-top: 3rem;
+  }
+  .are_you #mobile_no_show {
+    display: none;
+  }
+
+  .are_you .are_you_container {
+    padding: 2.5rem 2.5rem;
+  }
+
+  .are_you .endcap_container {
+    font-size: 1.5rem;
+    line-height: 1.9rem; /* 121.212% */
+  }
+}

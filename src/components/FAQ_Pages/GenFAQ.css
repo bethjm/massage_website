@@ -1,0 +1,29 @@
+.genfaq {
+  margin-top: 40px;
+  padding-top: 10%;
+  background-color: #fff9f0;
+  position: relative;
+  padding-bottom: 10rem;
+}
+
+.genfaq .genfaq_container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.genfaq .genfaq_accordion {
+  width: 60%;
+}
+
+@media screen and (max-width: 940px) {
+  .genfaq {
+    height: 100%;
+  }
+
+  .genfaq .genfaq_accordion {
+    width: 100%;
+  }
+}

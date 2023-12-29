@@ -1,0 +1,46 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+.about_header_page {
+  background-color: #fff9f0b5;
+  color: #fff;
+  position: relative;
+  display: flex;
+  height: 60vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  align-self: stretch;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  z-index: 0;
+}
+
+.about_header_page:before {
+  content: "";
+  background: url(../images/meet_steph_header.png) no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.about_header_page .about_header_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.about_header_page .about_header_container h1 {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 5rem;
+}

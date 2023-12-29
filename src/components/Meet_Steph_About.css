@@ -1,0 +1,57 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+.meet_steph {
+  display: flex;
+  padding: 5rem 10rem 2.5rem 10rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff9f0;
+}
+
+.meet_steph .meet_steph_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  background: var(--Shades-White, #fff);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.meet_steph .meet_steph_image {
+  width: 17.5rem;
+  height: 17.5rem;
+  border-radius: 17.5rem;
+  margin-top: 3%;
+}
+
+.meet_steph .meet_steph_text {
+  display: flex;
+  text-align: center;
+  padding: 2.5rem 2.5rem 2.5rem 5rem;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  gap: 1.25rem;
+}
+
+.meet_steph .meet_steph_text h1 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 2.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.5rem; /* 121.212% */
+  letter-spacing: -0.04125rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .meet_steph {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+
+  .meet_steph .meet_steph_text {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+}

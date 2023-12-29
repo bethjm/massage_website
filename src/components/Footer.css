@@ -1,0 +1,60 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+.footer {
+  text-align: center;
+  line-height: 1.7rem;
+  background-color: #fff9f0;
+  display: flex;
+  padding: 0rem 6.25rem 5rem 6.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+}
+
+.footer #phone {
+  height: 20px;
+  width: 20px;
+}
+
+.footer #mail {
+  height: 20px;
+  width: 20px;
+}
+
+.footer #location {
+  height: 20px;
+  width: 20px;
+}
+
+.footer .call {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .design_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 5%;
+}
+
+.footer #design_link {
+  color: #2f04d6;
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+.reviews {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: lightgreen;
+  background: url(../components/images/bostoncommon.jpeg) no-repeat center
+    center/cover;
+}
+
+.reviews .reviews_container {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.reviews .review_carousel {
+  white-space: pre-wrap;
+  padding: 10%;
+  width: 100%;
+}
+
+.reviews .review_text {
+  width: 100%;
+  color: var(--Neutral-700, #34393a);
+  text-align: center;
+  /* Paragraph/P2/Semi Bold */
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.1875rem;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.reviews .review_name {
+  color: #000;
+  text-align: center;
+  /* Heading / H2 - Small / Semi Bold */
+  font-family: Inter;
+  font-size: 2.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.5rem; /* 121.212% */
+  letter-spacing: -0.04125rem;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 600px) {
+  .reviews {
+    width: 100%;
+  }
+}
