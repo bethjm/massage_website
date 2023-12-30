@@ -2,8 +2,11 @@
 
 .about_header_page {
   background-color: #fff9f0b5;
+  position: relative;
+  background: url(../images/meet_steph_header.png) no-repeat center center/cover;
   color: #fff;
   position: relative;
+  background-repeat: no-repeat;
   display: flex;
   height: 60vh;
   flex-direction: column;
@@ -19,13 +22,13 @@
 
 .about_header_page:before {
   content: "";
-  background: url(../images/meet_steph_header.png) no-repeat center center/cover;
   height: 100%;
   width: 100%;
   position: absolute;
+  background-color: rgba(255, 249, 240, 0.71);
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 2;
 }
 
 .about_header_page .about_header_container {
@@ -37,6 +40,8 @@
   max-width: 1400px;
   margin: auto;
   padding: 1rem;
+  position: relative;
+  z-index: 3;
 }
 
 .about_header_page .about_header_container h1 {
