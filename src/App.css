@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&display=swap");
+
 .header {
   position: relative;
   height: 4rem;
@@ -35,7 +37,8 @@
 
 .header .nav_bar .logo .logo_name p {
   color: #0d0d0d;
-  font-family: Inter;
+  font-family: "Anek Malayalam", sans-serif;
+  font-weight: 600;
 }
 
 .header a {
