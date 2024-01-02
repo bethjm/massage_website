@@ -39,7 +39,10 @@ function Footer() {
               BethCodes
             </a>{" "}
             | Find the repo {""}
-            <a id="design_link" href="https://github.com/bethjm/stephmassage">
+            <a
+              id="design_link"
+              href="https://github.com/bethjm/massage_website"
+            >
               here
             </a>
           </p>
