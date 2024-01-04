@@ -39,11 +39,11 @@ function App() {
       <div className="header">
         <nav className="nav_bar">
           <div className="logo">
+            <img src={logo} alt="a lotus flower" />
             <Link className="logo_name" to="/">
               <p id="not_mobile_name">Bodywork By Stephanie</p>
               <p id="mobile_name">Bodywork</p>
             </Link>
-            <img src={logo} alt="a lotus flower" />
           </div>
 
           <div className="hamburger" onClick={handleClick}>

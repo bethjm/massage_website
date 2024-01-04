@@ -8,3 +8,8 @@
   cursor: pointer;
   font-weight: bold;
 }
+
+.tiny_button:hover {
+  background: #e0b9ca;
+  border: 2px solid #e0b9ca;
+}

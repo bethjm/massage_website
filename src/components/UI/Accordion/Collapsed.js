@@ -4,10 +4,11 @@ import "./Collapsed.css";
 
 const Collapsed = ({ children, handleOpen, id, isOpen, color }) => {
   const iconClassName = isOpen ? "rotate-icon" : "";
+  const accordionTogether = isOpen ? "styleTogether" : "";
 
   const containerStyle = {
-    color: color || "var(--text)",
-    background: "#fff",
+    // color: color || "var(--text)",
+    // background: "#fff",
   };
 
   return (

@@ -11,7 +11,11 @@ const Accordion = ({ children, initial, accordionWidth }) => {
   };
 
   return (
-    <div style={{ width: accordionWidth }}>
+    <div
+      style={{
+        width: accordionWidth,
+      }}
+    >
       {React.Children.map(children, (child) => {
         const id = child.props.children[0].props.id;
 
@@ -23,7 +27,16 @@ const Accordion = ({ children, initial, accordionWidth }) => {
         const expanded = child.props.children[1];
 
         return (
-          <div>
+          <div
+            style={{
+              width: accordionWidth,
+              borderRadius: "60px",
+              border: "4px solid #68fbe0",
+              backgroundColor: "#fff",
+              alignItems: "center",
+              marginBottom: "1.5rem",
+            }}
+          >
             {collapsed}
             {id === open && expanded}
           </div>
