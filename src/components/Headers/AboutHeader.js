@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./AboutHeader.css";
-import Button from "/Users/BethM/Desktop/stephmassage/src/components/UI/Button/TinyButton.js";
+import Button from "../UI/Button/Button";
 
 function AboutHeader() {
   return (

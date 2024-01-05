@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Meet_Steph_About.css";
 
-import headshot from "/Users/BethM/Desktop/stephmassage/src/components/images/headshot.png";
+import headshot from "../components/images/headshot.png";
 
 function Meet_Steph_About() {
   return (
